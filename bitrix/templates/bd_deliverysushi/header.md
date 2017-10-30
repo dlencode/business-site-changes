@@ -5,7 +5,7 @@ This block of code:
 <? if ($APPLICATION->GetCurPage(true) == SITE_DIR.'index.php'): ?><?else:?></a><?endif?>
 ```
 
-Need to replace insert:
+Need to replace into:
 ```
 <div class="logo">
   ...
