@@ -1,0 +1,245 @@
+.gift-item.masked{
+	border-bottom: none;
+}
+
+.gift-item.masked .mask{
+	border-radius: 3px;
+}
+
+.gift-item.active{
+	border-radius: 3px;
+	border-bottom: none;
+}
+.gift-item.active::after {
+	top: 20px;
+	left: 18px;
+}
+
+.gifts-list .gift-item .gift-description .get-another-gift {
+	padding: 16px 20px;
+	margin-top: 22px;
+}
+
+.gifts-list .gift-item:last-child {
+	margin-bottom: 15px;
+}
+
+.basket .basket-item .section {
+	padding-bottom: 5px;
+}
+
+@font-face {
+  font-family: 'CoreSansDS35Regular';
+  src: url('./font/core/CoreSansDS35Regular.eot?#iefix') format('embedded-opentype'),  url('./font/core/CoreSansDS35Regular.otf')  format('opentype'),
+	     url('./font/core/CoreSansDS35Regular.woff') format('woff'), url('./font/core/CoreSansDS35Regular.ttf')  format('truetype'), url('./font/core/CoreSansDS35Regular.svg#CoreSansDS35Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CoreSansDS45Medium';
+  src: url('./font/core/CoreSansDS45Medium.eot?#iefix') format('embedded-opentype'),  url('./font/core/CoreSansDS45Medium.otf')  format('opentype'),
+	     url('./font/core/CoreSansDS45Medium.woff') format('woff'), url('./font/core/CoreSansDS45Medium.ttf')  format('truetype'), url('./font/core/CoreSansDS45Medium.svg#CoreSansDS45Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'CoreSansDS35Regular';
+}
+
+ymaps {
+	font-family: 'CoreSansDS35Regular';
+}
+
+.copyright * {
+  font-family: "Roboto Condensed", sans-serif !important;
+}
+
+.status-bar .auth-tabs {
+	width: 231px !important;
+}
+
+.header {
+	background-color: #000 !important;
+}
+
+.header .basket-toggle {
+  padding: 14px 14px !important;
+}
+
+/*.header .basket-toggle.active_ {
+  background-color: #333 !important;
+}*/
+
+.basket .checkout-cont {
+  margin-top: -70px;
+}
+
+.grey-bg-basket {
+  padding-bottom: 85px !important;
+}
+.min-order-progress {
+  margin-top: -70px !important;
+}
+
+.carousel-cell a img {
+	border-radius: 0px !important;
+}
+
+
+.header .title img {
+	height: 30px !important;
+  margin-top: -6px !important;
+}
+
+
+.likes .like-content {
+	top: 15px !important;
+}
+.likes .like-icon {
+	background-image: url('/upload/dlencode/like.svg') !important;
+	background-size: 15px 14px;
+}
+.likes.liked .like-icon {
+	background-image: url('/upload/dlencode/liked.svg') !important;
+	background-size: 15px 14px;
+}
+
+
+
+footer .social-icons-footer a.sprite {
+	width: 27px !important;
+	background-size: 54px 27px !important;
+	background-position: 0px 0px !important;
+}
+footer .social-icons-footer a.sprite-social_vk {
+	background-image: url('/upload/dlencode/footer-socials/vk.svg') !important;
+}
+footer .social-icons-footer a.sprite-social_vk:hover {
+	background-position: -27px 0px !important;
+}
+footer .social-icons-footer a.sprite-social_fb {
+	background-image: url('/upload/dlencode/footer-socials/fb.svg') !important;
+}
+footer .social-icons-footer a.sprite-social_fb:hover {
+	background-position: -27px 0px !important;
+}
+footer .social-icons-footer a.sprite-social_instagram {
+	background-image: url('/upload/dlencode/footer-socials/instagram.svg') !important;
+}
+footer .social-icons-footer a.sprite-social_instagram:hover {
+	background-position: -27px 0px !important;
+}
+footer .social-icons-footer a.sprite-social_twitter {
+	background-image: url('/upload/dlencode/footer-socials/twitter.svg') !important;
+}
+footer .social-icons-footer a.sprite-social_twitter:hover {
+	background-position: -27px 0px !important;
+}
+footer .social-icons-footer a.sprite-social_od {
+	background-image: url('/upload/dlencode/footer-socials/ok.svg') !important;
+}
+footer .social-icons-footer a.sprite-social_od:hover {
+	background-position: -27px 0px !important;
+}
+
+
+.news-detail .back-to-catalog a:before {
+	background-image: url('/upload/dlencode/elements/arrow-back.svg') !important;
+	background-position: 0px 0px !important;
+	width: 12px !important;
+	height: 8px !important;
+	margin: 8px 10px 0 0px !important;
+}
+.news-detail .back-to-catalog a:hover:before {
+	background-position: -12px 0px !important;
+}
+
+
+.news-detail-image img {
+	border-radius: 3px;
+	padding-top: 0 !important;
+	margin-top: 15px;
+}
+
+.breadcrumb-box .breadcrumb-container .breadcrumb-path-container .close {
+	top: 6px !important;
+}
+
+.content-page .status-icon.icon-404 {
+	background-color: #000 !important;
+}
+.content-page .status-icon {
+	width: 200px !important;
+	height: 200px !important;
+}
+
+.content-page .status-icon.icon-404 img {
+	width: 120px !important;
+}
+
+.news-list .news-item .news-photo {
+	width: auto !important;
+}
+.history-view > .config-item {
+	padding: 30px !important;
+}
+
+
+.product-title {
+  font-size: 18px !important;
+  font-family: 'CoreSansDS45Medium';
+}
+
+.product-description h3 {
+  font-size: 26px !important;
+  font-family: 'CoreSansDS45Medium';
+}
+
+@font-face {
+  font-family: 'DlencodeCurrency';
+  src: url('./font/core/CoreSansDS35RegularDlencode.eot?#iefix') format('embedded-opentype'),
+  url('./font/core/CoreSansDS35RegularDlencode.woff') format('woff'), url('./font/core/CoreSansDS35RegularDlencode.ttf')  format('truetype'), url('./font/core/CoreSansDS35RegularDlencode.svg#CoreSansDS35RegularDlencode') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+span.current-price>span.currency {
+  font-size: 24px !important;
+}
+
+span.currency {
+  visibility: hidden;
+}
+
+span.currency::before {
+  font-family: 'DlencodeCurrency';
+  content: '₽';
+  visibility: visible;
+}
+
+.basket .progress-container .progress-bar-content .currency {
+	font-size: 16px !important;
+}
+
+.basket .basket-item .price-block .currency {
+	font-size: 16px !important;
+}
+
+.grey-bg-basket .order-total-container .order-total .order-sum .currency {
+	font-size: 28px !important;
+}
+.order-total-container .order-total .checkout-sum .currency {
+	font-size: 30px !important;
+}
+
+
+.header .basket-toggle .basket-header-sum .currency {
+  font-size: 20px !important;
+}
+
+span.old-price>span.currency {
+  font-size: 18px !important;
+
+}

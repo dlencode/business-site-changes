@@ -1,0 +1,289 @@
+/* Dlencode changes start */
+.category-view-item {
+  vertical-align: top;
+  margin-top: 50px;
+}
+
+.category-view-item .category-view-image {
+  text-align: center;
+}
+
+@font-face {
+  font-family: 'CoreSansDS35Regular';
+  src: url('./font/core/CoreSansDS35Regular.eot?#iefix') format('embedded-opentype'),  url('./font/core/CoreSansDS35Regular.otf')  format('opentype'),
+	     url('./font/core/CoreSansDS35Regular.woff') format('woff'), url('./font/core/CoreSansDS35Regular.ttf')  format('truetype'), url('./font/core/CoreSansDS35Regular.svg#CoreSansDS35Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CoreSansDS45Medium';
+  src: url('./font/core/CoreSansDS45Medium.eot?#iefix') format('embedded-opentype'),  url('./font/core/CoreSansDS45Medium.otf')  format('opentype'),
+	     url('./font/core/CoreSansDS45Medium.woff') format('woff'), url('./font/core/CoreSansDS45Medium.ttf')  format('truetype'), url('./font/core/CoreSansDS45Medium.svg#CoreSansDS45Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'CoreSansDS35Regular';
+}
+
+ymaps {
+	font-family: 'CoreSansDS35Regular';
+}
+
+.copyright * {
+  font-family: "Roboto Condensed", sans-serif !important;
+}
+
+header .logo {
+  margin-top: -20px;
+}
+
+.information-btn {
+  margin-left: 160px !important;
+}
+
+header .logo img {
+	height: 34px !important;
+}
+
+
+.likes .like-content {
+	top: 15px !important;
+}
+.likes .like-icon {
+	background-image: url('/upload/dlencode/like.svg') !important;
+	background-size: 15px 14px;
+}
+.likes.liked .like-icon {
+	background-image: url('/upload/dlencode/liked.svg') !important;
+	background-size: 15px 14px;
+}
+
+
+.information-block .information-icons .sprite {
+	cursor: pointer !important;
+	width: 55px !important;
+	background-size: 110px 55px !important;
+	background-position: 0px 0px;
+}
+
+.information-block .information-icons .sprite-repost_vk {
+	background-image: url('/upload/dlencode/social-sprites/vk.svg') !important;
+}
+.information-block .information-icons .sprite-repost_vk:hover {
+	background-position: -55px 0px !important;
+}
+
+.information-block .information-icons .sprite-repost_twitter {
+	background-image: url('/upload/dlencode/social-sprites/twitter.svg') !important;
+}
+.information-block .information-icons .sprite-repost_twitter:hover {
+	background-position: -55px 0px !important;
+}
+
+.information-block .information-icons .sprite-repost_od {
+	background-image: url('/upload/dlencode/social-sprites/ok.svg') !important;
+}
+.information-block .information-icons .sprite-repost_od:hover {
+	background-position: -55px 0px !important;
+}
+
+.information-block .information-icons .sprite-repost_fb {
+	background-image: url('/upload/dlencode/social-sprites/fb.svg') !important;
+}
+.information-block .information-icons .sprite-repost_fb:hover {
+	background-position: -55px 0px !important;
+}
+
+.information-block {
+	padding: 32px 20px 20px 12px !important;
+}
+
+footer .social-icons-footer a.sprite {
+	width: 27px !important;
+	background-size: 54px 27px !important;
+	background-position: 0px 0px !important;
+}
+footer .social-icons-footer a.sprite-social_vk {
+	background-image: url('/upload/dlencode/footer-socials/vk.svg') !important;
+}
+footer .social-icons-footer a.sprite-social_vk:hover {
+	background-position: -27px 0px !important;
+}
+footer .social-icons-footer a.sprite-social_fb {
+	background-image: url('/upload/dlencode/footer-socials/fb.svg') !important;
+}
+footer .social-icons-footer a.sprite-social_fb:hover {
+	background-position: -27px 0px !important;
+}
+footer .social-icons-footer a.sprite-social_instagram {
+	background-image: url('/upload/dlencode/footer-socials/instagram.svg') !important;
+}
+footer .social-icons-footer a.sprite-social_instagram:hover {
+	background-position: -27px 0px !important;
+}
+footer .social-icons-footer a.sprite-social_twitter {
+	background-image: url('/upload/dlencode/footer-socials/twitter.svg') !important;
+}
+footer .social-icons-footer a.sprite-social_twitter:hover {
+	background-position: -27px 0px !important;
+}
+footer .social-icons-footer a.sprite-social_od {
+	background-image: url('/upload/dlencode/footer-socials/ok.svg') !important;
+}
+footer .social-icons-footer a.sprite-social_od:hover {
+	background-position: -27px 0px !important;
+}
+
+
+.news-detail .back-to-catalog a:before {
+	background-image: url('/upload/dlencode/elements/arrow-back.svg') !important;
+	background-position: 0px 0px !important;
+	width: 12px !important;
+	height: 8px !important;
+	margin: 8px 10px 0 0px !important;
+}
+.news-detail .back-to-catalog a:hover:before {
+	background-position: -12px 0px !important;
+}
+
+
+.news-detail-image img {
+	border-radius: 3px;
+	padding-top: 0 !important;
+	margin-top: 15px;
+}
+
+.breadcrumb-box .breadcrumb-container .breadcrumb-path-container .close {
+	top: 6px !important;
+}
+
+.content-page .status-icon.icon-404 {
+	background-color: #000 !important;
+}
+.content-page .status-icon {
+	width: 200px !important;
+	height: 200px !important;
+}
+
+.content-page .status-icon.icon-404 img {
+	width: 120px !important;
+}
+
+
+.product-title {
+  font-size: 18px !important;
+  font-family: 'CoreSansDS45Medium';
+}
+
+.product-description h3 {
+  font-size: 26px !important;
+  font-family: 'CoreSansDS45Medium';
+}
+
+.product-description,
+#product-detail .md-content .product.product-detail .product-info p {
+  font-size: 14px !important;
+}
+
+
+@font-face {
+  font-family: 'DlencodeCurrency';
+  src: url('./font/core/CoreSansDS35RegularDlencode.eot?#iefix') format('embedded-opentype'),
+  url('./font/core/CoreSansDS35RegularDlencode.woff') format('woff'), url('./font/core/CoreSansDS35RegularDlencode.ttf')  format('truetype'), url('./font/core/CoreSansDS35RegularDlencode.svg#CoreSansDS35RegularDlencode') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+span.current-price>span.currency {
+  font-size: 24px !important;
+}
+
+span.currency {
+  visibility: hidden;
+}
+
+span.currency::before {
+  font-family: 'DlencodeCurrency';
+  content: '₽';
+  visibility: visible;
+}
+
+.min-order-progress .progress-bar-content .min-order-sum .currency {
+  font-size: 14px !important;
+}
+#popover-basket .webui-popover-content #basket .basket-items-col .basket-item .product-sum .currency {
+  font-size: 18px !important;
+}
+#popover-basket .webui-popover-content #basket .information-col .progress-container .progress-bar-content .sum-to-gift span.currency {
+  font-size: 30px !important;
+}
+#popover-basket .webui-popover-content #basket .basket-items-col .basket-actions .order-total-container .order-total .order-sum .currency {
+  font-size: 18px !important;
+}
+
+.basket-btn .not-empty-basket .basket-sum .currency {
+  font-size: 17px !important;
+}
+
+span.old-price>span.currency {
+  font-size: 18px !important;
+
+}
+
+
+.flickity-prev-next-button svg {
+  left: 32%;
+  top: 35%;
+  width: 35%;
+  height: 35%;
+}
+
+.product .preview .overlay .zoom-btn {
+  background: rgba(0, 0, 0, 0.4) url('/upload/dlencode/elements/zoom-in.svg') center no-repeat;
+}
+
+.product .product-info .product-prices>span {
+  margin-right: 0 !important;
+}
+.text-hide {
+  display: none !important;
+}
+
+.gift-sticky .expanded-gift .gifts-list .gift-item .badge .price,
+.gift-sticky .expanded-gift .gifts-list .gift-item .badge .currency {
+  font-size: inherit !important;
+}
+
+.auth-state.logged-in-state .bonuses .value .currency {
+  font-size: inherit !important;
+}
+
+.profile-content.bonuses .progress-stat .currency {
+  font-size: inherit !important;
+}
+
+.profile-cross-user-info .cont-item.bonuses-cont .currency {
+  font-size: inherit !important;
+}
+
+.profile-content.order-history table.order-history-table tbody td:nth-child(4) .currency {
+  font-size: inherit !important;
+}
+
+.profile-content .address-list-container .remove-address:before,
+.profile-content .address-list-container .add-address:before {
+  line-height: 2.1 !important;
+}
+
+.profile-content .radios input[type="radio"]+label span {
+  background-image: url('/upload/dlencode/elements/checkbox-normal.svg');
+  background-position: center;
+}
+.profile-content .radios input[type="radio"]:checked+label span {
+  background-image: url('/upload/dlencode/elements/checkbox-checked.svg');
+  background-position: center;
+}
+/* Dlencode changes end */
