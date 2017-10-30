@@ -2,4 +2,4 @@
 
 #### Navigation:
 - Desktop
-  - [font](./testlinktofolder/)
+  - [font](./bitrix/templates/bd_deliverysushi/font/)
