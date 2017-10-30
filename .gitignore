@@ -1,3 +1,9 @@
+
+# Created by https://www.gitignore.io/api/git,macos
+
+### Git ###
+*.orig
+
 ### macOS ###
 *.DS_Store
 .AppleDouble
@@ -24,3 +30,5 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# End of https://www.gitignore.io/api/git,macos
