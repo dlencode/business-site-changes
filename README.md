@@ -20,3 +20,20 @@
     - [fonts](./crm/static/print/fonts/)
 - upload
   - [dlencode](./upload/dlencode/)
+
+
+
+#### Breadcrumb
+
+In file 'components/bitrix/breadcrumb/bread/template.php' replace the part of code:
+```
+$strReturn = '<a href="#" class="breadcrumb-toggle"><img src="'.SITE_TEMPLATE_PATH.'/images/breadcrumb.png"></a>
+              <div class="breadcrumb-path-container">
+	              <a href="#" class="close">&times;</a>';
+```
+to:
+```
+$strReturn = '<a href="#" class="breadcrumb-toggle"><img src="/upload/dlencode/elements/link.svg"></a>
+              <div class="breadcrumb-path-container">
+	              <a href="#" class="close">&times;</a>';
+```
